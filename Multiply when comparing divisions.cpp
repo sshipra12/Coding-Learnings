@@ -17,5 +17,6 @@ int main()
 
     //Case2:
     if(num*denominator>=numerator)   //here comparison is like this 100 >= 125 and this condition becomes false, which is accurate
+                                     // instead of comparing by division, we cross multiply the denominators and then compare
         cout<<"Yes";
 }
