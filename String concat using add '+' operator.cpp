@@ -11,7 +11,7 @@ int main()
     s=str;  //this works
 
     //Case2:
-    str=s[0]+s[1];     //this won't work since '+' means concatenate and it requires 
+    str=s[0]+s[1];     // this won't work since '+' means concatenate and it requires 
     str=""+s[0]+s[1];  //base string in which we want to add/concatenate
                        //in 2nd case, base string("") in which we are concatenating is not present/placed
 
