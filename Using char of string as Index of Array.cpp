@@ -11,7 +11,7 @@ public:
         //as index for alphabets array by subtracting 97 (starting ASCII of lowercase) to ith char (eg: 'a'-97 = 0)
       
         for(i=0;i<sentence.size();i++){
-            alphabets[sentence[i]-97]=true;;  //eg: 'a'-97 = 0 and will mark 0th index of alphabets array true
+            alphabets[sentence[i]-97]=true;;  // eg: 'a'-97 = 0 and will mark 0th index of alphabets array true
                                               //denoting char 'a' is present , 'b-97' = 1 and so on 
         }
         for(i=0;i<26;i++){
