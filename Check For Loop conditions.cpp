@@ -13,7 +13,7 @@ public:
         }
         return ans;
 
-        /*for(i=0;i<nums.size()&&j!=i;i++){    // Here condition (j!=i) is in loop conditions so the FIRST time condition fails WHOLE loop will exit
+        /*for(i=0;i<nums.size()&&j!=i;i++){   // Here condition (j!=i) is in loop conditions so the FIRST time condition fails WHOLE loop will exit
             smaller=0;
             for(j=0;j<nums.size();j++){
                 if(nums[j]<nums[i])
